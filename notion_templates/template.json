@@ -1,3 +1,169 @@
 {
-  "info": "Ceci est un exemple de contenu. Tu peux personnaliser depuis Notion."
+  "parent": {
+    "type": "page_id",
+    "page_id": "{{PARENT_PAGE_ID}}"
+  },
+  "properties": {
+    "title": [
+      {
+        "text": {
+          "content": "Tableau de bord - {{nom du client}}"
+        }
+      }
+    ]
+  },
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Bienvenue dans votre espace personnalis\u00e9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Cet espace vous aide \u00e0 piloter projets, t\u00e2ches, contenus, automatisations."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Bases de donn\u00e9es principales"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "child_database",
+      "child_database": {
+        "title": "Projets"
+      }
+    },
+    {
+      "object": "block",
+      "type": "child_database",
+      "child_database": {
+        "title": "T\u00e2ches"
+      }
+    },
+    {
+      "object": "block",
+      "type": "child_database",
+      "child_database": {
+        "title": "Contenus / Templates"
+      }
+    },
+    {
+      "object": "block",
+      "type": "child_database",
+      "child_database": {
+        "title": "Automatisations"
+      }
+    },
+    {
+      "object": "block",
+      "type": "child_database",
+      "child_database": {
+        "title": "CRM Clients"
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Autres sections"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Objectifs du client"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Checklist onboarding"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Ressources partag\u00e9es"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Notes de r\u00e9union"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "text": {
+              "content": "Rapport mensuel"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
