@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Client A",
+    "email": "clienta@example.com",
+    "template": "template_1"
+  },
+  {
+    "name": "Client B",
+    "email": "clientb@example.com",
+    "template": "template_2"
+  }
+]
